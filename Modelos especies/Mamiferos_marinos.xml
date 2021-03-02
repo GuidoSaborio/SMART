@@ -38,12 +38,12 @@
                       <!-- </children>
                       <children key="feresa_rl" isactive="true"> -->
 <children key="feresaattenuata_rl8551" isactive="true">
-<names language_code="es" value="Feresa attenuata (Orca Pigmeo)"/>
+<names language_code="es" value="Orca Pigmeo (Feresa attenuata )"/>
 </children>
                       <!-- </children>
                       <children key="globicephala_rl" isactive="true"> -->
 <children key="globicephalamacrorhynchus_rl9249" isactive="true">
-<names language_code="es" value="Globicephala macrorhynchus (Caldrón Negro)"/>
+<names language_code="es" value="Caldrón Negro (Globicephala macrorhynchus)"/>
 </children>
 <!-- <children key="globicephalamelas_rl9250" isactive="true">
 <names language_code="es" value="Globicephala melas (Calderón Negro, calderón común, ballena piloto, Caldrón Negro)"/>
@@ -51,59 +51,59 @@
                       <!-- </children>
                       <children key="grampus_rl" isactive="true"> -->
 <children key="grampusgriseus_rl9461" isactive="true">
-<names language_code="es" value="Grampus griseus (calderón gris, Delfín de Risso, Fabo Calderón)"/>
+<names language_code="es" value="Delfín de Risso (Grampus griseus)"/>
 </children>
                       <!-- </children>
                       <children key="lagenodelphis_rl" isactive="true"> -->
 <children key="lagenodelphishosei_rl11140" isactive="true">
-<names language_code="es" value="Lagenodelphis hosei (Delfín De Borneo, Delfín De Borneo)"/>
+<names language_code="es" value="Delfín De Borneo  (Lagenodelphis hosei)"/>
 </children>
                       <!-- </children>
 
                       <children key="orcinus_rl" isactive="true"> -->
 <children key="orcinusorca_rl15421" isactive="true">
-<names language_code="es" value="Orcinus orca (Espadarte, Espadarte, Orca)"/>
+<names language_code="es" value=" Orca ( Orcinus orca)"/>
 </children>
                       <!-- </children>
                       <children key="peponocephala_rl" isactive="true"> -->
 <children key="peponocephalaelectra_rl16564" isactive="true">
-<names language_code="es" value="Peponocephala electra (Calderón Pequeño, Calderón Pequeño, Electra, Electra)"/>
+<names language_code="es" value="Calderón Pequeño  (Peponocephala electra)"/>
 </children>
                       <!-- </children>
                       <children key="pseudorca_rl" isactive="true"> -->
 <children key="pseudorcacrassidens_rl18596" isactive="true">
-<names language_code="es" value="Pseudorca crassidens (Orca Falsa, Orca Falsa)"/>
+<names language_code="es" value="Orca Falsa  (Pseudorca crassidens)"/>
 </children>
                       <!-- </children>
 
                       <children key="stenella_rl" isactive="true"> -->
 <children key="stenellaattenuata_rl20729" isactive="true">
-<names language_code="es" value="Stenella attenuata (Delfín Manchado, Delfín Pintado)"/>
+<names language_code="es" value="Delfín Manchado  (Stenella attenuata)"/>
 </children>
 <children key="stenellaclymene_rl20730" isactive="true">
-<names language_code="es" value="Stenella clymene (Delfín Clymene)"/>
+<names language_code="es" value="Delfín Clymene (Stenella clymene)"/>
 </children>
 <children key="stenellacoeruleoalba_rl20731" isactive="true">
-<names language_code="es" value="Stenella coeruleoalba (Delfín Blanco Y Azul, Delfín Blanco Y Azul, Delfín Listado, Delfín Listado)"/>
+<names language_code="es" value="Delfín Blanco Y Azul  (Stenella coeruleoalba)"/>
 </children>
 <children key="stenellafrontalis_rl20732" isactive="true">
-<names language_code="es" value="Stenella frontalis (Delfín Manchado Del Atlántico, Delfín Pintado)"/>
+<names language_code="es" value="Delfín Manchado Del Atlántico  (Stenella frontalis)"/>
 </children>
 <children key="stenellalongirostris_rl20733" isactive="true">
-<names language_code="es" value="Stenella longirostris (Delfín Tornillón, Estenela Giradora)"/>
+<names language_code="es" value="Delfín Tornillón (Stenella longirostris)"/>
 </children>
                       <!-- </children>
                       <children key="steno_rl" isactive="true"> -->
 <children key="stenobredanensis_rl20738" isactive="true">
-<names language_code="es" value="Steno bredanensis (Delfín De Pico Largo, Delfín De Pico Largo)"/>
+<names language_code="es" value="Delfín De Pico Largo  (Steno bredanensis)"/>
 </children>
                       <!-- </children>
                       <children key="tursiops_rl" isactive="true"> -->
 <children key="tursiopsaduncus_rl41714" isactive="true">
-<names language_code="es" value="Tursiops aduncus (Delfin Mular Del Oceano Indico)"/>
+<names language_code="es" value="Delfin Mular Del Oceano Indico (Tursiops aduncus"/>
 </children>
 <children key="tursiopstruncatus_rl22563" isactive="true">
-<names language_code="es" value="Tursiops truncatus (Delfín Mular, Pez Mular, Tursión, Tursión)"/>
+<names language_code="es" value="Delfín Mular (Tursiops truncatus)"/>
 </children>
 <!-- <children key="tursiopstruncatusssp_ponticus_rl133714" isactive="true">
 <names language_code="es" value="Tursiops truncatus ssp. ponticus"/>
@@ -116,7 +116,7 @@
                       </children>
                       <children key="eubalaena_rl" isactive="true"> -->
 <children key="eubalaenaglacialis_rl41712" isactive="true">
-<names language_code="es" value="Eubalaena glacialis (Ballena, Ballena Franca Del Norte, Ballenga)"/>
+<names language_code="es" value="Ballena Franca Del Norte (Eubalaena glacialis)"/>
 </children>
 
                       <!-- </children>
@@ -125,7 +125,7 @@
 
                       <children key="megaptera_rl" isactive="true"> -->
 <children key="megapteranovaeangliae_rl13006" isactive="true">
-<names language_code="es" value="Megaptera novaeangliae (Ballena Jorobada, Ballena Jorobada, Gubarte, Gubarte, Jorobada, Jorobada, Rorcual Jorobado, Rorcual Jorobado)"/>
+<names language_code="es" value="Ballena Jorobada (Megaptera novaeangliae)"/>
 </children>
                       <!-- </children>
                   </children>
@@ -134,14 +134,14 @@
                       <children key="mesoplodon_rl" isactive="true">
 < -->
 <children key="mesoplodondensirostris_rl13244" isactive="true">
-<names language_code="es" value="Mesoplodon densirostris (Ballena De Pico De Blainville, Ballena De Pico De Blainville, Zifio De Blainville, Zifio De Blainville)"/>
+<names language_code="es" value="Ballena De Pico De Blainville (Mesoplodon densirostris)"/>
 </children>
 <children key="mesoplodoneuropaeus_rl13245" isactive="true">
-<names language_code="es" value="Mesoplodon europaeus (Ballena De Pico De Gervais, Ballena De Pico De Gervais, Zifio De Gervais, Zifio De Gervais)"/>
+<names language_code="es" value="Ballena De Pico De Gervais (Mesoplodon europaeus)"/>
 </children>
                       <!-- <children key="ziphius_rl" isactive="true"> -->
 <children key="ziphiuscavirostris_rl23211" isactive="true">
-<names language_code="es" value="Ziphius cavirostris (Ballena de Cuvier, Ziphio de Cuvier)"/>
+<names language_code="es" value="Ballena de Cuvier (Ziphius cavirostris)"/>
 </children>
                       <!-- </children> -->
                   </children>
