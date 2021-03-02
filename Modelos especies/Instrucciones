@@ -14,6 +14,10 @@ Además, modifique la información taxonómica que se despliega en el modelo, ya
 Cómo utilizar estos archivos.
 
 Estos archivos están diseñados para se agregados en el modelo de datos en su SMART de escritorio, como un "atributo" a una categoría existente. 
-Tieen que agregarse como un atributo nuevo, tipo árbol, y que debe llamarse dependiendo del archivo (Para "Mamiferos_terrestre.xml", el atributo debe llamarse: Mamiferos,
-clave = mamiferos). Luego se procede a importar el archivo xml, y se desplegará una ventana donde puede escoger las especies, según los grupos de interes. 
+Tieen que agregarse como un atributo nuevo, tipo árbol, y que debe llamarse dependiendo del archivo:
+
+Archivo: "Mamiferos_terrestre.xml", el atributo debe llamarse: Mamiferos, clave = mamiferos
+Archivo: "Mamiferos_marinos.xml", el atrinuto debe llamarse: Mamiferos marinos, clave: mamierosmarinos
+
+Luego se procede a importar el archivo xml, y se desplegará una ventana donde puede escoger las especies, según interese. 
 Por ahora los grupos de interés son en base a la taxonomía, pero pronto espero modificarlos a "nombres comunes", que lo hagan más amigables con el usuario.
