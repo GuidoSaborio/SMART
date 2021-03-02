@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<DataModel xmlns="http://www.smartconservationsoftware.org/xml/1.0/datamodel">
+    <languages>
+        <language code="es"/>
+    </languages>
+    <attributes>
+        <attribute key="mamiferos" isrequired="false" type="TREE">
+            <names language_code="es" value="Mamiferos"/>
+            <tree key="chordata_rl" isactive="true">
+                <children key="mammalia_rl" isactive="true" iconkey="mammal">
+                    <children key="carnivora_rl" isactive="true" iconkey="carnivora">
+                        <!-- <children key="felidae_rl" isactive="true" iconkey="felidae"> -->
+                            <!-- <children key="leopardus_rl" isactive="true"> -->
+<children key="leoparduspardalis_rl11509" isactive="true" iconkey="leopardus_pardalis">
+    <names language_code="es" value="Leopardus pardalis (Gato Onza, Manigordo, Ocelote, Tigrillo)"/>
+</children>
+<children key="leopardustigrinus_rl11510" isactive="true">
+    <names language_code="es" value="Leopardus tigrinus (Caucel, Gato Atigrado, Gato Tigre, Tigrillo, Tirica)"/>
+</children>
+<children key="leopardustigrinusssp_oncilla_rl136876" isactive="true">
+    <names language_code="es" value="Leopardus tigrinus ssp. oncilla"/>
+</children>
+<children key="leoparduswiedii_rl11511" isactive="true">
+    <names language_code="es" value="Leopardus wiedii (Caucel, Gato Montés, Gato Pintado, Tigrillo)"/>
+</children>
+                            <!-- </children> -->
+                            <!-- <children key="panthera_rl" isactive="true"> -->
+<children key="pantheraonca_rl15953" isactive="true" iconkey="panthera_onca">
+    <names language_code="es" value="Panthera onca (Otorongo, Tigre Americano, Tigre Real, Yaguar, Yaguarete)"/>
+</children>
+                            <!-- </children> -->
+                            <!-- <children key="puma_rl" isactive="true"> -->
+<children key="pumaconcolor_rl18868" isactive="true" iconkey="puma_concolor">
+    <names language_code="es" value="Puma concolor (León Americano, León Bayo, León Colorado, León De Montaña, Mitzli, Onza Bermeja)"/>
+</children>
+<children key="pumayagouaroundi_rl9948" isactive="true">
+    <names language_code="es" value="Puma yagouaroundi (Gato Colorado, Gato Moro, León Brenero, Leoncillo, Onza, Tigrillo, Yaguarundi, Yaguarundí)"/>
+</children>
+                            <!-- </children> -->
+                        <!-- </children>
+                        <children key="canidae_rl" isactive="true"> -->
+                            <!-- <children key="canis_rl" isactive="true"> -->
+<children key="canislatrans_rl3745" isactive="true">
+    <names language_code="es" value="Canis latrans"/>
+</children>
+                            <!-- </children> -->
+                            <!-- <children key="speothos_rl" isactive="true"> -->
+<children key="speothosvenaticus_rl20468" isactive="true" iconkey="speothos_venaticus">
+    <names language_code="es" value="Speothos venaticus (Cachorro Vinagre, Guanfando, Pero Selvático, Perrito de Monte , Perrito Venadero, Perro de Agua, Perro de la Selva, Perro De Monte, Perro Grullero , Perro Vinagre , Umba, Zorrito Vinagre, Zorro Pitoco , Zorro Vinagre)"/>
+</children>
+                            <!-- </children> -->
+                            <!-- <children key="urocyon_rl" isactive="true"> -->
+<children key="urocyoncinereoargenteus_rl22780" isactive="true">
+    <names language_code="es" value="Urocyon cinereoargenteus (Gato Cervan, Gato De Monte, Zorro, Zorro Gris, Zorro Plateado)"/>
+</children>
+                            <!-- </children> -->
+                        <!-- </children>
+                        <children key="mustelidae_rl" isactive="true"> -->
+                            <!-- <children key="eira_rl" isactive="true"> -->
+<children key="eirabarbara_rl41644" isactive="true">
+    <names language_code="es" value="Eira barbara (Amingo, Cabeza De Mate, Gato Negro, Tolomuco)"/>
+</children>
+                            <!-- </children>
+                            <children key="galictis_rl" isactive="true"> -->
+<children key="galictisvittata_rl41640" isactive="true">
+    <names language_code="es" value="Galictis vittata (Grisón, Hurón, Perro De Agua)"/>
+</children>
+                            <!-- </children>
+                            <children key="lontra_rl" isactive="true"> -->
+<children key="lontralongicaudis_rl12304" isactive="true">
+    <names language_code="es" value="Lontra longicaudis (Gato De Agua, Lobito Del Plata, Lobito De Río, Nutria De Agua, Perro De Agua, Taira)"/>
+</children>
+                            <!-- </children>
+                            <children key="mustela_rl" isactive="true"> -->
+<children key="mustelafrenata_rl41654" isactive="true">
+    <names language_code="es" value="Mustela frenata (Comedreja Andina)"/>
+</children>
+<children key="mustelaitatsi_rl41656" isactive="true">
+    <names language_code="es" value="Mustela itatsi"/>
+</children>
+<children key="mustelakathiah_rl41655" isactive="true">
+    <names language_code="es" value="Mustela kathiah"/>
+</children>
+<children key="mustelalutreola_rl14018" isactive="true">
+    <names language_code="es" value="Mustela lutreola (Visón Europeo)"/>
+</children>
+<children key="mustelalutreolina_rl14019" isactive="true">
+    <names language_code="es" value="Mustela lutreolina"/>
+</children>
+<children key="mustelanigripes_rl14020" isactive="true">
+    <names language_code="es" value="Mustela nigripes (Turón Patinegro Americano)"/>
+</children>
+<children key="mustelanivalis_rl14021" isactive="true">
+    <names language_code="es" value="Mustela nivalis (Comadreja)"/>
+</children>
+<children key="mustelanudipes_rl41657" isactive="true">
+    <names language_code="es" value="Mustela nudipes"/>
+</children>
+<children key="mustelaputorius_rl41658" isactive="true">
+    <names language_code="es" value="Mustela putorius (Turón, TURÓN)"/>
+</children>
+<children key="mustelasibirica_rl41659" isactive="true">
+    <names language_code="es" value="Mustela sibirica (Comadreja Siberiana, Cuataquil)"/>
+</children>
+<children key="mustelastrigidorsa_rl14027" isactive="true">
+    <names language_code="es" value="Mustela strigidorsa"/>
+</children>
+<children key="mustelasubpalmata_rl41660" isactive="true">
+    <names language_code="es" value="Mustela subpalmata"/>
+</children>
+                            <!-- </children> -->
+                        <!-- </children> -->
+                        <!-- <children key="procyonidae_rl" isactive="true"> -->
+                            <!-- <children key="bassaricyon_rl" isactive="true"> -->
+<children key="bassaricyongabbii_rl2609" isactive="true">
+    <names language_code="es" value="Bassaricyon gabbii (Chosna Pericote, Cuataquil, Cuchumbi, Lingo, Martilla, Olingo De Occidente)"/>
+</children>
+                            <!-- </children>
+                            <children key="bassariscus_rl" isactive="true"> -->
+<children key="bassariscussumichrasti_rl2613" isactive="true">
+    <names language_code="es" value="Bassariscus sumichrasti (Babisuri, Basáride, Guayanoche, Mico De Noche, Mico Rayado)"/>
+</children>
+                            <!-- </children>
+                            <children key="nasua_rl" isactive="true"> -->
+<children key="nasuanarica_rl41683" isactive="true">
+    <names language_code="es" value="Nasua narica (Cozumbo, Pizote)"/>
+</children>
+                            <!-- </children>
+                            <children key="potos_rl" isactive="true"> -->
+<children key="potosflavus_rl41679" isactive="true">
+    <names language_code="es" value="Potos flavus (Chosna, Cusu, Martilla, Mico De Noche, Mico León, Mono Michi, Perro De Monte)"/>
+</children>
+                            <!-- </children>
+                            <children key="procyon_rl" isactive="true"> -->
+<children key="procyoncancrivorus_rl41685" isactive="true">
+    <names language_code="es" value="Procyon cancrivorus (Cangrejera, Mapache Lavador, Mayuato)"/>
+</children>
+<children key="procyonlotor_rl41686" isactive="true">
+    <names language_code="es" value="Procyon lotor (Mapache, Mapachín, Zorra Manglera)"/>
+</children>
+                            <!-- </children> -->
+                        <!-- </children> -->
+                        <!-- <children key="mephitidae_rl" isactive="true"> -->
+                            <!-- <children key="conepatus_rl" isactive="true"> -->
+<children key="conepatuschinga_rl41630" isactive="true">
+    <names language_code="es" value="Conepatus chinga (Zorrino Común)"/>
+</children>
+<children key="conepatushumboldtii_rl41631" isactive="true">
+    <names language_code="es" value="Conepatus humboldtii"/>
+</children>
+<children key="conepatusleuconotus_rl41632" isactive="true">
+    <names language_code="es" value="Conepatus leuconotus (Zorillo)"/>
+</children>
+<children key="conepatussemistriatus_rl41633" isactive="true">
+    <names language_code="es" value="Conepatus semistriatus (Mofeta, Zorro Hediondo)"/>
+</children>
+                            <!-- </children>
+                            <children key="spilogale_rl" isactive="true"> -->
+<children key="spilogaleputorius_rl41636" isactive="true">
+    <names language_code="es" value="Spilogale putorius (Zorillo Manchado)"/>
+</children>
+                            <!-- </children> -->
+                        </children>
+                    <children key="primates_rl" isactive="true" iconkey="primates">
+                        <!-- <children key="atelidae_rl" isactive="true">
+                            <children key="alouatta_rl" isactive="true"> -->
+<children key="alouattapalliata_rl39960" isactive="true">
+    <names language_code="es" value="Alouatta palliata (Aullador De La Costa, Mono Aullador, Mono Congo)"/>
+</children>
+<children key="alouattapalliatassp_aequatorialis_rl919" isactive="true">
+    <names language_code="es" value="Alouatta palliata ssp. aequatorialis"/>
+</children>
+<children key="alouattapalliatassp_coibensis_rl43899" isactive="true">
+    <names language_code="es" value="Alouatta palliata ssp. coibensis"/>
+</children>
+<children key="alouattapalliatassp_mexicana_rl925" isactive="true">
+    <names language_code="es" value="Alouatta palliata ssp. mexicana"/>
+</children>
+<children key="alouattapalliatassp_palliata_rl43928" isactive="true">
+    <names language_code="es" value="Alouatta palliata ssp. palliata"/>
+</children>
+<children key="alouattapalliatassp_trabeata_rl43900" isactive="true">
+    <names language_code="es" value="Alouatta palliata ssp. trabeata"/>
+</children>
+<children key="alouattapigra_rl914" isactive="true">
+    <names language_code="es" value="Alouatta pigra (Araguato De Guatemala, Mono Aullador Negro, Saraguato, Saraguato Negro)"/>
+</children>
+                            <!-- </children>
+                            <children key="ateles_rl" isactive="true"> -->
+<children key="atelesfusciceps_rl135446" isactive="true">
+    <names language_code="es" value="Ateles fusciceps"/>
+</children>
+<children key="atelesfuscicepsssp_fusciceps_rl39922" isactive="true">
+    <names language_code="es" value="Ateles fusciceps ssp. fusciceps"/>
+</children>
+<children key="atelesfuscicepsssp_rufiventris_rl39921" isactive="true">
+    <names language_code="es" value="Ateles fusciceps ssp. rufiventris"/>
+</children>
+<children key="atelesgeoffroyi_rl2279" isactive="true">
+    <names language_code="es" value="Ateles geoffroyi (Mico, Mono Araña)"/>
+</children>
+<children key="atelesgeoffroyissp_azuerensis_rl2286" isactive="true">
+    <names language_code="es" value="Ateles geoffroyi ssp. azuerensis"/>
+</children>
+<children key="atelesgeoffroyissp_frontatus_rl2280" isactive="true">
+    <names language_code="es" value="Ateles geoffroyi ssp. frontatus"/>
+</children>
+<children key="atelesgeoffroyissp_geoffroyi_rl43901" isactive="true">
+    <names language_code="es" value="Ateles geoffroyi ssp. geoffroyi"/>
+</children>
+<children key="atelesgeoffroyissp_grisescens_rl2287" isactive="true">
+    <names language_code="es" value="Ateles geoffroyi ssp. grisescens"/>
+</children>
+<children key="atelesgeoffroyissp_ornatus_rl2289" isactive="true">
+    <names language_code="es" value="Ateles geoffroyi ssp. ornatus"/>
+</children>
+<children key="atelesgeoffroyissp_vellerosus_rl39923" isactive="true">
+    <names language_code="es" value="Ateles geoffroyi ssp. vellerosus"/>
+</children>
+<children key="atelesgeoffroyissp_yucatanensis_rl2290" isactive="true">
+    <names language_code="es" value="Ateles geoffroyi ssp. yucatanensis"/>
+</children>
+                            <!-- </children>
+                      </children>
+                        <children key="aotidae_rl" isactive="true">
+                            <children key="aotus_rl" isactive="true"> -->
+<children key="aotuslemurinus_rl1808" isactive="true">
+    <names language_code="es" value="Aotus lemurinus (Mico De Noche Andino, Mono Nocturno)"/>
+</children>
+                            <!-- </children>
+                        </children>
+                            <children key="saguinus_rl" isactive="true"> -->
+<children key="saguinusgeoffroyi_rl41522" isactive="true">
+    <names language_code="es" value="Saguinus geoffroyi (Tamarín)"/>
+</children>
+                          <!-- </children>
+                        <children key="cebidae_rl" isactive="true"> -->
+                            <!-- <children key="cebus_rl" isactive="true"> -->
+<children key="cebuscapucinus_rl40020" isactive="true">
+    <names language_code="es" value="Cebus capucinus (Cariblanco, Mono Capuchino, Mono Carablanca)"/>
+</children>
+<children key="cebuscapucinusssp_imitator_rl43936" isactive="true">
+    <names language_code="es" value="Cebus capucinus ssp. imitator"/>
+</children>
+                            <!-- </children>
+                            <children key="saimiri_rl" isactive="true"> -->
+<children key="saimirioerstedii_rl19836" isactive="true">
+    <names language_code="es" value="Saimiri oerstedii (Barizo Dorsirrojo, Mono Ardilla, Mono Titi, Mono Tití, Titi)"/>
+</children>
+<children key="saimirioerstediissp_citrinellus_rl19841" isactive="true">
+    <names language_code="es" value="Saimiri oerstedii ssp. citrinellus"/>
+</children>
+<children key="saimirioerstediissp_oerstedii_rl19840" isactive="true">
+    <names language_code="es" value="Saimiri oerstedii ssp. oerstedii"/>
+</children>
+                            <!-- </children>
+                        </children> -->
+                    </children>
+                    <children key="lagomorpha_rl" isactive="true">
+                            <!-- <children key="lepus_rl" isactive="true"> -->
+<children key="lepusflavigularis_rl11790" isactive="true">
+    <names language_code="es" value="Lepus flavigularis (Liebre De Tehuantepec, Liebre Tehuana)"/>
+</children>
+                            <!-- </children> -->
+                            <!-- <children key="sylvilagus_rl" isactive="true"> -->
+<children key="sylvilagusbrasiliensis_rl41298" isactive="true">
+    <names language_code="es" value="Sylvilagus brasiliensis (Conejo Tropical)"/>
+</children>
+<children key="sylvilagusdicei_rl21209" isactive="true">
+    <names language_code="es" value="Sylvilagus dicei"/>
+</children>
+<children key="sylvilagusfloridanus_rl41299" isactive="true">
+    <names language_code="es" value="Sylvilagus floridanus (Conejo Castellano)"/>
+</children>
+                            <!-- </children> -->
+                    </children>
+                    <children key="pilosa_rl" isactive="true">
+                        <!-- <children key="bradypodidae_rl" isactive="true">
+                            <children key="bradypus_rl" isactive="true"> -->
+<children key="bradypusvariegatus_rl3038" isactive="true">
+    <names language_code="es" value="Bradypus variegatus (Guasa, Perezoso Bayo, Perezoso Grisaceo, Perezoso Tridáctilo, Perico Ligero)"/>
+</children>
+                            <!-- </children>
+                        </children>
+                        <children key="megalonychidae_rl" isactive="true">
+                            <children key="choloepus_rl" isactive="true"> -->
+<children key="choloepushoffmanni_rl4778" isactive="true">
+    <names language_code="es" value="Choloepus hoffmanni (Perezoso, Perico Ligero, Unau)"/>
+</children>
+                            <!-- </children>
+                            </children>
+                        <children key="myrmecophagidae_rl" isactive="true">
+                            <children key="myrmecophaga_rl" isactive="true"> -->
+<children key="myrmecophagatridactyla_rl14224" isactive="true" iconkey="myrmecophaga_tridactyla">
+    <names language_code="es" value="Myrmecophaga tridactyla (Hormiguero Gigante, Oso Caballo, Oso Hormiguero, Oso Palmero)"/>
+</children>
+                            <!-- </children>
+                            <children key="tamandua_rl" isactive="true"> -->
+<children key="tamanduamexicana_rl21349" isactive="true">
+    <names language_code="es" value="Tamandua mexicana (Oso Hormiguero, Oso Melero, Oso Mielero, Tamandua)"/>
+</children>
+                            <!-- </children>
+                        </children> -->
+                    </children>
+                    <children key="cingulata_rl" isactive="true">
+                        <!-- <children key="dasypodidae_rl" isactive="true">
+                            <children key="cabassous_rl" isactive="true"> -->
+<children key="cabassouscentralis_rl3412" isactive="true">
+    <names language_code="es" value="Cabassous centralis (Armadillo Cola de Trapo, Armadillo de Cola Desnuda de Centro América, Tatú de Rabo Molle)"/>
+</children>
+                            <!-- </children>
+                            <children key="dasypus_rl" isactive="true"> -->
+<children key="dasypusnovemcinctus_rl6290" isactive="true">
+    <names language_code="es" value="Dasypus novemcinctus (Cachicamo, Tatú)"/>
+</children>
+                           <!-- </children>
+                        </children> -->
+                      </children>
+                    <children key="didelphimorphia_rl" isactive="true">
+                        <!-- <children key="didelphidae_rl" isactive="true">
+                            <children key="caluromys_rl" isactive="true"> -->
+<children key="caluromysderbianus_rl3650" isactive="true">
+    <names language_code="es" value="Caluromys derbianus"/>
+</children>
+<children key="caluromyslanatus_rl3648" isactive="true">
+    <names language_code="es" value="Caluromys lanatus (Cuica Lanosa)"/>
+</children>
+<children key="caluromysphilander_rl3649" isactive="true">
+    <names language_code="es" value="Caluromys philander"/>
+</children>
+                            <!-- </children>
+                            <children key="chironectes_rl" isactive="true"> -->
+<children key="chironectesminimus_rl4671" isactive="true">
+    <names language_code="es" value="Chironectes minimus (Cuica De Agua, Perrito De Agua, Raposa De Agua, Yapó)"/>
+</children>
+                            <!-- </children>
+                            <children key="didelphis_rl" isactive="true"> -->
+<children key="didelphisalbiventris_rl40489" isactive="true">
+    <names language_code="es" value="Didelphis albiventris (Comadreja Común, Comadreja Overa)"/>
+</children>
+<children key="didelphisaurita_rl40500" isactive="true">
+    <names language_code="es" value="Didelphis aurita (Comadreja Orejas Negras)"/>
+</children>
+<children key="didelphisimperfecta_rl136592" isactive="true">
+    <names language_code="es" value="Didelphis imperfecta"/>
+</children>
+<children key="didelphismarsupialis_rl40501" isactive="true">
+    <names language_code="es" value="Didelphis marsupialis (Comadreja Grande)"/>
+</children>
+<children key="didelphispernigra_rl136395" isactive="true">
+    <names language_code="es" value="Didelphis pernigra"/>
+</children>
+<children key="didelphisvirginiana_rl40502" isactive="true">
+    <names language_code="es" value="Didelphis virginiana"/>
+</children>
+                            </children>
+                            <!-- </children>
+                            </children>
+                        <children key="equidae_rl" isactive="true"> -->
+                        <children key="tapiridae_rl" isactive="true">
+                            <!-- <children key="tapirus_rl" isactive="true"> -->
+<children key="tapirusbairdii_rl21471" isactive="true">
+    <names language_code="es" value="Tapirus bairdii (Anteburro, Danta, Dante, Danto, Macho De Monte, Tapir Centroamericano)"/>
+</children>
+<children key="tapirusindicus_rl21472" isactive="true">
+    <names language_code="es" value="Tapirus indicus (Tapir De La India)"/>
+</children>
+<children key="tapiruspinchaque_rl21473" isactive="true" iconkey="tapirus_pinchaque">
+    <names language_code="es" value="Tapirus pinchaque (Danta Cordillerana, Danta De Montaña, Danta De Páramo, Danta Lanuda, Danta Negra, Gran Bestia, Pinchaque, Tapir Andino)"/>
+</children>
+<children key="tapirusterrestris_rl21474" isactive="true" iconkey="tapirus_terrestris">
+    <names language_code="es" value="Tapirus terrestris (Anta Brasileña, Danta, Danta Amazónica, Gran Bestia, Tapir Brasileño)"/>
+</children>
+                            </children>
+                        </children>
+                    <!-- </children> -->
+                <!-- </children> -->
+            </tree>
+        </attribute>
+    </attributes>
+    <categories>
+        <category key="especies" ismultiple="true" isactive="true">
+            <names language_code="es" value="Especies"/>
+            <attribute isactive="true" attributekey="mamiferos"/>
+        </category>
+    </categories>
+</DataModel>
