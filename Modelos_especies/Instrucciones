@@ -1,0 +1,20 @@
+Este es un proyecto en desarrollo, y de momento lo que está disponible son borradores. 
+
+Los archivos .xml en esta carpeta son una modificación del atributo "species" que viene con el SMART. 
+Este atributo originalmente es un árbol, basado en la taxonomía de las especies, para diferentes grupos de vertebrados alrededor del mundo. Esto lo convierte en una recurso muy útil, 
+pero a la vez complejo de utilizar.
+
+Los "modelos de especies" que están disponibles acá, son pensado en su potencial uso en Costa Rica, y el nombre del archivo indica el grupo en que se enfoca. 
+Por ejemplo, "Mamiferos_terrestre.xml"
+
+Estos archivos constituyen los primeros borradores, y por lo tanto NO son "perfectos", no contienen todas las especies para Costa Rica, y deje algunas especies que no están en 
+Costa Rica, pero seguramente serán de interés en otros paises. 
+Además, modifique la información taxonómica que se despliega en el modelo, ya que puede ser tedioso tener que navegar por ella para encontrar una especie particular. 
+
+Cómo utilizar estos archivos.
+
+Estos archivos están diseñados para se agregados en el modelo de datos en su SMART de escritorio, como un "atributo" a una categoría existente. 
+Tieen que agregarse como un atributo nuevo, tipo árbol, y que debe llamarse dependiendo del archivo (Para "Mamiferos_terrestre.xml", el atributo debe llamarse: Mamiferos,
+clave = mamiferos). Luego se procede a importar el archivo xml, y se desplegará una ventana donde puede escoger las especies, según los grupos de interes. 
+Por ahora los grupos de interés son en base a la taxonomía, pero pronto espero modificarlos a "nombres comunes", que lo hagan más amigables con el usuario.
+
