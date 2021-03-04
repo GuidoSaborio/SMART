@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<DataModel xmlns="http://www.smartconservationsoftware.org/xml/1.0/datamodel">
+    <languages>
+        <language code="es"/>
+    </languages>
+    <attributes>
+        <attribute key="cobertura" isrequired="false" type="TREE">
+            <names language_code="es" value="Cobertura"/>
+            <tree key="tipo_cobertura" isactive="true">
+                <children key="coral_vivo" isactive="true">
+<children key="pocillopora" isactive="true" iconkey="pocillopora_sp">
+    <names language_code="es" value="POC (Pocillopora)"/>
+</children>
+<children key="porites_lobata" isactive="true">
+    <names language_code="es" value="PLOB (Porites lobata)"/>
+</children>
+<children key="porites_panamensis" isactive="true">
+    <names language_code="es" value="PPAN (Porites panamensis)"/>
+</children>
+<children key="pavona_gigantea" isactive="true">
+    <names language_code="es" value="PGIG (Pavona gigantea)"/>
+</children>
+<children key="pavona_clavus" isactive="true">
+    <names language_code="es" value="PCLA (Pavona clavus)"/>
+</children>
+<children key="pavona_frondifera" isactive="true">
+    <names language_code="es" value="PFRO (Pavona frondifera)"/>
+</children>
+<children key="pavona_varians" isactive="true">
+    <names language_code="es" value="PVAR (Pavona varians)"/>
+</children>
+<children key="pavona_chiriquensis" isactive="true">
+    <names language_code="es" value="PCHI (Pavona chiriquensis)"/>
+</children>
+<children key="gardineroseris_planulata" isactive="true">
+    <names language_code="es" value="GPLA (Gardineroseris planulata)"/>
+</children>
+<children key="psammocora_stellata" isactive="true">
+    <names language_code="es" value="PSTE (Psammocora stellata)"/>
+</children>
+<children key="psammocora_superficialis" isactive="true">
+    <names language_code="es" value="PSUP (Psammocora superficialis)"/>
+</children>
+<children key="leptoseris_papyracea" isactive="true">
+    <names language_code="es" value="LPAP (Leptoseris papyracea)"/>
+</children>
+               </children>
+	             <children key="algas" isactive="true">
+<children key= "macroalga_carnosa" isactive="true">
+    <names language_code="es" value="MCAR (MAcroalga carnosa)"/>
+</children>
+<children key= "macroalga_calcarea" isactive="true">
+    <names language_code="es" value="MCAL (MAcroalga carcare)"/>
+</children>
+<children key= "caulerpa_sertularoides" isactive="true">
+    <names language_code="es" value="CSER (Caulerpa sertularoides)"/>
+</children>
+<children key= "algas_filamentosas" isactive="true">
+    <names language_code="es" value="TURF (Algas filamentosas)"/>
+</children>
+<children key= "algas_coralinas" isactive="true">
+    <names language_code="es" value="ACC (Algas coralinas costrosas)"/>
+</children>
+<children key= "rodolitos" isactive="true">
+    <names language_code="es" value="ROD (Rodolitos)"/>
+</children>
+<children key= "cianobacterias" isactive="true">
+    <names language_code="es" value="CIAN (Cianobacterias)"/>
+</children>
+               </children>
+               <children key="otros" isactive="true">
+<children key= "esponjas" isactive="true">
+    <names language_code="es" value="ESP (Esponjas)"/>
+</children>
+<children key= "coral_suave" isactive="true">
+    <names language_code="es" value="SUAV (Coral suave)"/>
+</children>
+<children key= "invertebrado_sesil" isactive="true">
+    <names language_code="es" value="INV (Invertebrado sesil)"/>
+</children>
+              </children>
+              <children key="abiotico" isactive="true">
+<children key= "roca" isactive="true">
+    <names language_code="es" value="ROC (Roca)"/>
+</children>
+<children key= "arena" isactive="true">
+    <names language_code="es" value="ARE (Arena)"/>
+</children>
+<children key= "grava" isactive="true">
+    <names language_code="es" value="GRAV (Grava)"/>
+</children>
+<children key= "sedimento" isactive="true">
+    <names language_code="es" value="SED (Sedimento)"/>
+</children>
+             </children>
+             </tree>
+      </attribute>
+</attributes>
+<categories>
+     <category key="cobertura" ismultiple="true" isactive="true">
+      <names language_code="es" value="Cobertura"/>
+      <attribute isactive="true" attributekey="cobertura"/>
+     </category>
+</categories>
+</DataModel>
