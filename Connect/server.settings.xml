@@ -1,0 +1,41 @@
+<!-- the SMART Connect database Connection Details  -->
+<Resource auth="Container" 
+    driverClassName="org.postgresql.Driver"
+    maxActive="20"
+    maxIdle="10"
+    type="javax.sql.DataSource" 
+    factory="org.apache.tomcat.jdbc.pool.DataSourceFactory" 
+    name="org.wcs.smart.connect.datasource.postgresql"
+    username="<USERNAME>" 
+    password="<PASSWORD>" 
+    url="jdbc:postgresql://<HOST>:<PORT>/<DBNAME>" />
+
+<!-- email server configuration -->    	
+<Resource name="mail/Session" 
+    auth="Container" 
+    type="javax.mail.Session"
+    mail.transport.protocol="smtps"
+    mail.smtp.ssl.enable="true"
+    mail.smtp.auth="true"
+    mail.smtp.from="<FROM>"
+    mail.smtp.host="<HOST>"
+    mail.smtp.user="<USER>"
+    password="<PASSWORD>"/>	
+    
+<!-- environment variables -->
+<!-- SMART Filestore Location -->
+<Environment name="smartconnect.filestorelocation" value="<FILESTORE LOCATION>" type="java.lang.String" override="false" />
+
+<!--  number of days to keep data queue items -->
+<!--  after this number of days, items with a status of error  -->
+<!--  or complete will be removed. Associated files will also be removed  -->
+<!--  set to -1 to keep forever (not recommended) -->
+<Environment name="smartconnect.dataqueue_cleanup_days" value="90" type="java.lang.Integer" override="false" /> 
+<Environment name="smartconnect.spatial_ref_sys_table" value="public.spatial_ref_sys" type="java.lang.String" override="false" />
+<Environment name="smartconnect.number_background_threads" value="5" type="java.lang.Integer" override="false" />
+<Environment name="smartconnect.work_item_history_days_available" value="5" type="java.lang.Integer" override="false" />
+<Environment name="smartconnect.changelog_cleanup_days" value="60" type="java.lang.Integer" override="false" />
+<Environment name="smartconnect.ca_export_days_available" value="10" type="java.lang.Integer" override="false" />
+<Environment name="smartconnect.sync_download_hours_available" value="24" type="java.lang.Integer" override="false" />
+<Environment name="smartconnect.cleanup_task_interval_hours" value="5" type="java.lang.Integer" override="false" />
+<Environment name="smartconnect.gfw_cleanup_days" value="30" type="java.lang.Integer" override="false" />
